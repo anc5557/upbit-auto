@@ -1,0 +1,19 @@
+[app]
+language = "ko"
+timezone = "Asia/Seoul"
+data_dir = "data"
+
+[api]
+# 환경변수로도 설정 가능: UPBIT_ACCESS_KEY / UPBIT_SECRET_KEY
+upbit_access_key = ""
+upbit_secret_key = ""
+
+[risk]
+max_position_value = 0.4      # 자본 대비 비중
+max_daily_loss = 0.05         # 자본 대비 일간 최대 손실
+max_concurrent_positions = 1
+
+[trading]
+# 기본 비용 (합계 0.1%)
+fee = 0.0005       # 수수료(0.05%)
+slippage = 0.0005  # 슬리피지(0.05%)
