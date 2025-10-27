@@ -26,6 +26,7 @@ import ua.strategy.examples.ema_rsi  # register
 import ua.strategy.examples.macd_vwap  # register
 import ua.strategy.examples.bb_rsi  # register
 import ua.strategy.composites.regime_router  # register
+import ua.strategy.composites.regime_router_5m_btc  # register
 from zoneinfo import ZoneInfo
 from ua.broker.upbit import UpbitBroker, OrderRequest
 
